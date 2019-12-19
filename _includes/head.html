@@ -3,8 +3,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if site.compass.author %}{{ site.compass.author }} &#8226; {% endif %}{{ site.compass.tagline | strip_html }}</title>
 
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}{{ site.compass.logo }}"/>
-  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/favicon/apple-touch-icon.png?v=wAdy5aEd6P">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon/favicon-32x32.png?v=wAdy5aEd6P">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon/favicon-16x16.png?v=wAdy5aEd6P">
+  <link rel="manifest" href="{{ site.baseurl }}/favicon/site.webmanifest?v=wAdy5aEd6P">
+  <link rel="mask-icon" href="{{ site.baseurl }}/favicon/safari-pinned-tab.svg?v=wAdy5aEd6P" color="#5bbad5">
+  <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}{{ site.baseurl }}/favicon/favicon.ico?v=wAdy5aEd6P">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="{{ site.baseurl }}/favicon/browserconfig.xml?v=wAdy5aEd6P">
+  <meta name="theme-color" content="#ffffff">
 
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/normalize.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
